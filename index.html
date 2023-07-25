@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" type="module" defer></script>
+    <title>Space invaders</title>
+  </head>
+  <body>
+    <canvas id="canvas"> </canvas>
+    <div id="beggining-interface" class="beggining-interface">
+      <div class="wrapper">
+        <button>Play</button>
+        <div class="arrows">
+          <span>&#8657;</span>
+          <div class="row-2">
+            <span>&#8656;</span>
+            <span>&#8658;</span>
+          </div>
+          <span>&#8659;</span>
+        </div>
+      </div>
+    </div>
+    <div id="msg-modal" class="msg-modal">
+      <h2 class="msg-area" data-msg-area></h2>
+      <button class="retry-btn" data-retry-btn>Retry</button>
+    </div>
+  </body>
+</html>
